@@ -1,0 +1,47 @@
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+d:\我的文档\visual studio 2010\Projects\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\academic program\Test\2013.03.24\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\2014.03.25\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+G:\2014.03.25\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2014.03.26\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb

@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\academic program\Test\2014.03.26\BMP°æ±¾\upload image 232\USER\test.uvproj
+Project File Date:  03/26/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling test.c...
+test.c(71): warning:  #223-D: function "memcpy" declared implicitly
+test.c(82): warning:  #223-D: function "memcpy" declared implicitly
+test.c(97): warning:  #177-D: variable "j" was declared but never referenced
+test.c(98): warning:  #177-D: variable "temp" was declared but never referenced
+test.c(99): warning:  #177-D: variable "ptrData" was declared but never referenced
+test.c(144): warning:  #177-D: variable "i" was declared but never referenced
+test.c(144): warning:  #177-D: variable "j" was declared but never referenced
+test.c(146): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=17938 RO-data=1782 RW-data=528 ZI-data=504320  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 8 Warning(s).

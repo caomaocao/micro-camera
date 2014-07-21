@@ -1,0 +1,11 @@
+..\OBJ\remote.o: ..\HARDWARE\REMOTE\remote.c
+..\OBJ\remote.o: ..\HARDWARE\REMOTE\remote.h
+..\OBJ\remote.o: ..\SYSTEM\sys\sys.h
+..\OBJ\remote.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\remote.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\remote.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\remote.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\remote.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\remote.o: ..\SYSTEM\delay\delay.h
+..\OBJ\remote.o: ..\SYSTEM\usart\usart.h
+..\OBJ\remote.o: D:\Software\Keil\ARM\RV31\Inc\stdio.h

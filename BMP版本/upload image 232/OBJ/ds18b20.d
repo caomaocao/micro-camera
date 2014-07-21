@@ -1,0 +1,9 @@
+..\OBJ\ds18b20.o: ..\HARDWARE\DS18B20\ds18b20.c
+..\OBJ\ds18b20.o: ..\HARDWARE\DS18B20\ds18b20.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\ds18b20.o: ..\SYSTEM\delay\delay.h

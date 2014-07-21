@@ -1,0 +1,12 @@
+..\OBJ\flash.o: ..\HARDWARE\FLASH\flash.c
+..\OBJ\flash.o: ..\HARDWARE\FLASH\flash.h
+..\OBJ\flash.o: ..\SYSTEM\sys\sys.h
+..\OBJ\flash.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\flash.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\flash.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\flash.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\flash.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\flash.o: ..\HARDWARE\SPI\spi.h
+..\OBJ\flash.o: ..\SYSTEM\delay\delay.h
+..\OBJ\flash.o: ..\SYSTEM\usart\usart.h
+..\OBJ\flash.o: D:\Software\Keil\ARM\RV31\Inc\stdio.h

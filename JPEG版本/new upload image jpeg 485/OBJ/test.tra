@@ -1,0 +1,69 @@
+*** Creating Trace Output File '..\OBJ\test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\obj\test.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\led.o"'
+### List of Objects: adding '"..\obj\beep.o"'
+### List of Objects: adding '"..\obj\key.o"'
+### List of Objects: adding '"..\obj\exti.o"'
+### List of Objects: adding '"..\obj\wdg.o"'
+### List of Objects: adding '"..\obj\timer.o"'
+### List of Objects: adding '"..\obj\tpad.o"'
+### List of Objects: adding '"..\obj\oled.o"'
+### List of Objects: adding '"..\obj\ili93xx.o"'
+### List of Objects: adding '"..\obj\wkup.o"'
+### List of Objects: adding '"..\obj\adc.o"'
+### List of Objects: adding '"..\obj\dac.o"'
+### List of Objects: adding '"..\obj\dma.o"'
+### List of Objects: adding '"..\obj\myiic.o"'
+### List of Objects: adding '"..\obj\24cxx.o"'
+### List of Objects: adding '"..\obj\rtc.o"'
+### List of Objects: adding '"..\obj\spi.o"'
+### List of Objects: adding '"..\obj\flash.o"'
+### List of Objects: adding '"..\obj\rs485.o"'
+### List of Objects: adding '"..\obj\can.o"'
+### List of Objects: adding '"..\obj\touch.o"'
+### List of Objects: adding '"..\obj\remote.o"'
+### List of Objects: adding '"..\obj\joypad.o"'
+### List of Objects: adding '"..\obj\adxl345.o"'
+### List of Objects: adding '"..\obj\ds18b20.o"'
+### List of Objects: adding '"..\obj\dht11.o"'
+### List of Objects: adding '"..\obj\24l01.o"'
+### List of Objects: adding '"..\obj\ps2.o"'
+### List of Objects: adding '"..\obj\mouse.o"'
+### List of Objects: adding '"..\obj\stmflash.o"'
+### List of Objects: adding '"..\obj\rda5820.o"'
+### List of Objects: adding '"..\obj\audiosel.o"'
+### List of Objects: adding '"..\obj\ov7670.o"'
+### List of Objects: adding '"..\obj\sccb.o"'
+### List of Objects: adding '"..\obj\sram.o"'
+### List of Objects: adding '"..\obj\usmart.o"'
+### List of Objects: adding '"..\obj\usmart_config.o"'
+### List of Objects: adding '"..\obj\usmart_str.o"'
+### List of Objects: adding '"..\obj\malloc.o"'
+### List of Objects: adding '"..\obj\dct.o"'
+### List of Objects: adding '"..\obj\jcapi.o"'
+### List of Objects: adding '"..\obj\jchuff.o"'
+### List of Objects: adding '"..\obj\jcint.o"'
+### List of Objects: adding '"..\obj\jcmarker.o"'
+### List of Objects: adding '"..\obj\jpeg_enc.o"'
+### List of Objects: adding '"..\obj\jutility.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\startup_stm32f10x_hd.o" "..\obj\test.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\usart.o" "..\obj\led.o" "..\obj\beep.o" "..\obj\key.o" "..\obj\exti.o" "..\obj\wdg.o" "..\obj\timer.o" "..\obj\tpad.o" "..\obj\oled.o" "..\obj\ili93xx.o" "..\obj\wkup.o" "..\obj\adc.o" "..\obj\dac.o" "..\obj\dma.o" "..\obj\myiic.o" "..\obj\24cxx.o" "..\obj\rtc.o" "..\obj\spi.o" "..\obj\flash.o" "..\obj\rs485.o" "..\obj\can.o" "..\obj\touch.o" "..\obj\remote.o" "..\obj\joypad.o" "..\obj\adxl345.o" "..\obj\ds18b20.o" "..\obj\dht11.o" "..\obj\24l01.o" "..\obj\ps2.o" "..\obj\mouse.o" "..\obj\stmflash.o" "..\obj\rda5820.o" "..\obj\audiosel.o" "..\obj\ov7670.o" "..\obj\sccb.o" "..\obj\sram.o" "..\obj\usmart.o" "..\obj\usmart_config.o" "..\obj\usmart_str.o" "..\obj\malloc.o" "..\obj\dct.o" "..\obj\jcapi.o" "..\obj\jchuff.o" "..\obj\jcint.o" "..\obj\jcmarker.o" "..\obj\jpeg_enc.o" "..\obj\jutility.o" --strict --scatter "..\OBJ\test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\OBJ\test.map" -o "..\OBJ\test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\test.axf'
+### ADS-LD Command File: '..\OBJ\test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\test.lnp', Handle=0x0000041C
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

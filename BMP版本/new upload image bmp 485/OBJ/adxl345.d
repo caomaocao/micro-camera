@@ -1,0 +1,11 @@
+..\OBJ\adxl345.o: ..\HARDWARE\ADXL345\adxl345.c
+..\OBJ\adxl345.o: ..\HARDWARE\ADXL345\adxl345.h
+..\OBJ\adxl345.o: ..\HARDWARE\24CXX\myiic.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\sys.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\adxl345.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\adxl345.o: ..\SYSTEM\delay\delay.h
+..\OBJ\adxl345.o: D:\Software\Keil\ARM\RV31\Inc\math.h

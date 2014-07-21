@@ -1,0 +1,9 @@
+..\OBJ\usart.o: ..\SYSTEM\usart\usart.c
+..\OBJ\usart.o: ..\SYSTEM\sys\sys.h
+..\OBJ\usart.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\usart.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\usart.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\usart.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\usart.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\usart.o: ..\SYSTEM\usart\usart.h
+..\OBJ\usart.o: D:\Software\Keil\ARM\RV31\Inc\stdio.h

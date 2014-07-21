@@ -1,0 +1,10 @@
+..\OBJ\rda5820.o: ..\HARDWARE\RDA5820\rda5820.c
+..\OBJ\rda5820.o: ..\HARDWARE\RDA5820\rda5820.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\sys.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\rda5820.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\rda5820.o: ..\HARDWARE\24CXX\myiic.h
+..\OBJ\rda5820.o: ..\SYSTEM\delay\delay.h

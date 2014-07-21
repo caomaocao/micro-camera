@@ -1,0 +1,14 @@
+..\OBJ\touch.o: ..\HARDWARE\TOUCH\touch.c
+..\OBJ\touch.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\touch.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\touch.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\touch.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\touch.o: ..\HARDWARE\TOUCH\touch.h
+..\OBJ\touch.o: ..\SYSTEM\sys\sys.h
+..\OBJ\touch.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\touch.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\touch.o: D:\Software\Keil\ARM\RV31\Inc\stdlib.h
+..\OBJ\touch.o: ..\SYSTEM\delay\delay.h
+..\OBJ\touch.o: D:\Software\Keil\ARM\RV31\Inc\math.h
+..\OBJ\touch.o: ..\HARDWARE\24CXX\24cxx.h
+..\OBJ\touch.o: ..\HARDWARE\24CXX\myiic.h

@@ -1,0 +1,9 @@
+..\OBJ\sccb.o: ..\HARDWARE\OV7670\sccb.c
+..\OBJ\sccb.o: ..\SYSTEM\sys\sys.h
+..\OBJ\sccb.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\sccb.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\sccb.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\sccb.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\sccb.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\sccb.o: ..\HARDWARE\OV7670\sccb.h
+..\OBJ\sccb.o: ..\SYSTEM\delay\delay.h

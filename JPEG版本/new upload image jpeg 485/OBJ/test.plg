@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\academic program\Test\2014.03.26\JPEG°æ±¾\new upload image jpeg 485\USER\test.uvproj
+Project File Date:  03/26/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling test.c...
+test.c(73): warning:  #223-D: function "memcpy" declared implicitly
+test.c(85): warning:  #223-D: function "memcpy" declared implicitly
+test.c(101): warning:  #177-D: variable "j" was declared but never referenced
+test.c(102): warning:  #177-D: variable "temp" was declared but never referenced
+test.c(216): warning:  #223-D: function "jpeg_encoder" declared implicitly
+test.c(158): warning:  #177-D: variable "i" was declared but never referenced
+test.c(158): warning:  #177-D: variable "j" was declared but never referenced
+test.c(160): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=26922 RO-data=2542 RW-data=544 ZI-data=350984  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 8 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+* JLink Info: Device "STM32F103ZC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\academic program\Test\2014.03.26\JPEG°æ±¾\new upload image jpeg 485\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V7 compiled Feb 15 2011 11:03:33
+Hardware: V7.00
+S/N : 40005012 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103ZC
+VTarget = 3.248V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 0, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4800 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...

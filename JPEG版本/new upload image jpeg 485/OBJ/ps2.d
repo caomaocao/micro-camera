@@ -1,0 +1,11 @@
+..\OBJ\ps2.o: ..\HARDWARE\PS2\ps2.c
+..\OBJ\ps2.o: ..\HARDWARE\PS2\ps2.h
+..\OBJ\ps2.o: ..\SYSTEM\delay\delay.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ps2.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\ps2.o: ..\SYSTEM\usart\usart.h
+..\OBJ\ps2.o: D:\Software\Keil\ARM\RV31\Inc\stdio.h

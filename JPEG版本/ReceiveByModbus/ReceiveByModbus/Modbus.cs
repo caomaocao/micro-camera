@@ -298,7 +298,7 @@ namespace ReceiveByModbus
             // return false;
         }
 
-        public int ReadBmpDataFromCamera(byte address, byte[] buffer, byte count, int len)
+        public int ReadBmpDataFromCamera(byte address, byte[] buffer,byte count)
         {
             int read_bytes = 0;
 
@@ -306,11 +306,8 @@ namespace ReceiveByModbus
             sendBuf[1] = 0x20;
             sendBuf[2] = 0x00;          //寄存器地址高字节
             sendBuf[3] = count;      //寄存器地址低字节
-            sendBuf[4] = 0x01;                          //寄存器数量高字节
-            sendBuf[5] = 0x01;                          //寄存器数量低字节
-            ushort crc = GetCRC(sendBuf, 6);
-            sendBuf[6] = (byte)(crc >> 8);
-            sendBuf[7] = (byte)(crc & 0x00ff);
+            sendBuf[4] = 0xC1;
+            sendBuf[5] = 0xD2;
 
             try
             {
@@ -319,11 +316,11 @@ namespace ReceiveByModbus
                 //发送帧
                 comm.DiscardInBuffer();
                 comm.DiscardOutBuffer();
-                comm.Write(sendBuf, 0, 8);
+                comm.Write(sendBuf, 0, 6);
 
                 //判断返回帧
                 //read_bytes = IsReadDataCorrect(count, len);
-                read_bytes = BmpReceiveByte(ref receiveBuf, 0, len);
+                read_bytes = BmpReceiveByte(ref receiveBuf, 0,0);
                 if(read_bytes > 0)
                 {
                     for (int i = 0; i < read_bytes; i++)
@@ -594,7 +591,7 @@ namespace ReceiveByModbus
                 return 0x00;
             }
         }
-        private int BmpReceiveByte(ref byte[] bmpreceiveBuf, int offset, int count)
+        private int BmpReceiveByte(ref byte[] bmpreceiveBuf, int offset,int count)
         {
             int BytesRead = 0;
             
@@ -602,7 +599,17 @@ namespace ReceiveByModbus
             {
                 int ret = 0;
                 comm.ReadTimeout = 10000;
-                ret = comm.Read(bmpreceiveBuf, offset, count);
+
+
+                while (ret < 6)
+                {
+                    ret += comm.Read(bmpreceiveBuf, offset+ret, 1);
+                }
+                if (count == 0)
+                {
+                    count = bmpreceiveBuf[5] * 256 + bmpreceiveBuf[4] ;
+                }
+
                 while (ret > 0)
                 {
                     BytesRead += ret;

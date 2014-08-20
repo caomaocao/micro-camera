@@ -1,0 +1,10 @@
+..\OBJ\adc.o: ..\HARDWARE\ADC\adc.c
+..\OBJ\adc.o: ..\HARDWARE\ADC\adc.h
+..\OBJ\adc.o: ..\SYSTEM\sys\sys.h
+..\OBJ\adc.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OBJ\adc.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OBJ\adc.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OBJ\adc.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OBJ\adc.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OBJ\adc.o: ..\SYSTEM\sys\stm32f10x_flash.h
+..\OBJ\adc.o: ..\SYSTEM\delay\delay.h

@@ -45,3 +45,12 @@ E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\o
 E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
 E:\academic program\Test\2014.03.26\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.exe
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.pdb
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.exe
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\bin\Debug\ReceiveByModbus.pdb
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Form1.resources
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\ReceiveByModbus.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\摄像头上位机下位机\JPEG版本\ReceiveByModbus\ReceiveByModbus\obj\x86\Debug\GenerateResource.write.1.tlog

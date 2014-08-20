@@ -38,83 +38,46 @@ namespace ReceiveByModbus
             int total_read_bytes = 0;
             int total_bytes;
             SetSeriport();
+            
             byte count=0;
-            byte[] buffer = new byte[1008];
+            byte[] buffer;
             byte address = byte.Parse(textBox1.Text);
             ushort tmp;
-            byte[] AllData = new byte[153600];
+            byte[] AllData = new byte[102400];
             int len = 1008;
-            do
-            {
-                read_bytes = modbus.ReadBmpDataFromCamera(address, buffer, (byte)count, len);
+
+                read_bytes = modbus.ReadBmpDataFromCamera(address, AllData,1);
                 if (read_bytes < 6)
                     return;
-
-                tmp = (ushort)(buffer[3] * 256 + buffer[2]);
-                if (tmp != count)
+                buffer = new byte[read_bytes];
+                tmp = (ushort)(AllData[5] * 256 + AllData[4]);
+                if (tmp != read_bytes)
                     return;
                 //size = (ushort)(receiveBuf[5] * 256 + receiveBuf[4]);
                 //if (size > ret)
                 //    return 0;
-                if (buffer[read_bytes - 2] != 0xAA)
-                    return ;
-                if (buffer[read_bytes - 1] != 0x55)
-                    return;
-
-                for (int i = 0; i < read_bytes - 8; i++)
+                //if (AllData[read_bytes - 2] != 0xAA)
+                //    return ;
+                //if (AllData[read_bytes - 1] != 0x55)
+                //    return;
+                for (int i = 0; i < tmp/1008; i++)
                 {
-                    AllData[count * 1000 + i] = buffer[i + 6];
+                    for (int j = 0; j < 1000; j++)
+                    {
+                        buffer[i*1000+j] = AllData[i*1008+j + 6];
+                    }
+                }
+                int count1 = (int)(tmp / 1008);
+                for (int i = 0; i < tmp % 1008; i++)
+                {
+                    buffer[count1 * 1000 + i] = AllData[count1 *1008 + i + 6];
                 }
 
-                total_read_bytes += read_bytes;
-                total_bytes = (int)(buffer[5] * 256 + buffer[4]);
-                count++;
-                if (total_bytes - total_read_bytes > 1008)
-                    len = 1008;
-                else
-                    len = total_bytes - total_read_bytes;
-
-            } while (total_bytes > total_read_bytes);
-            //byte red;
-            //byte green;
-            //byte blue;
-            //Bitmap bitmap = new Bitmap(320, 240,PixelFormat.Format16bppRgb565);
-            //int color;
-            //Color c;
-            //for (int i = 0; i < 76800; i++)
-            //{
-            //    color = ((ushort)AllData[2 * i + 1] )*256 +(ushort)AllData[2 * i];
-            //    red = (byte)((color >> 11) & 0x1f);
-            //    green = (byte)((color >> 5) & 0x3f);
-            //    blue = (byte)(color & 0x1f);
-            //    red = (byte)((red << 3) | (red & 0x7));
-            //    green = (byte)((green << 2) | (green & 0x3));
-            //    blue = (byte)((blue << 3) | (blue & 0x7));
-            //    c = Color.FromArgb(red, green, blue);
-            //    bitmap.SetPixel(i/240, i/320, c);
-            //}
-
-            //for (int i = 0; i < 240; i++)
-            //{
-            //    for (int j = 0; j < 320; j++)
-            //    {
-            //        color = AllData[(i * 320 + j) * 2 + 1] * 256 + AllData[(i * 320 + j) * 2];
-
-            //        red = (byte)((color >> 11) & 0x1f);
-            //        green = (byte)((color >> 5) & 0x3f);
-            //        blue = (byte)(color & 0x1f);
-            //        red = (byte)((red << 3) | (red & 0x7));
-            //        green = (byte)((green << 2) | (green & 0x3));
-            //        blue = (byte)((blue << 3) | (blue & 0x7));
-            //        c = Color.FromArgb(red, green, blue);
-            //        bitmap.SetPixel(j, i, c);
-            //    }
-            //}
 
             string filename = "D:\\" + DateTime.Now.ToBinary() + ".jpeg";
             FileStream stream = new FileStream(filename, FileMode.Create, FileAccess.Write, FileShare.Write|FileShare.Read);
-            stream.SetLength(AllData.LongLength);
-            stream.Write(AllData, 0, AllData.Length);
+            stream.SetLength(buffer.LongLength);
+            stream.Write(buffer, 0, buffer.Length);
             stream.Close();
             pictureBox1.BackgroundImage = Bitmap.FromFile(filename);
 
@@ -159,12 +122,16 @@ namespace ReceiveByModbus
                 serial.StopBits = StopBits.One;
             else if (comboBox4.Text == "1.5")
                 serial.StopBits = StopBits.OnePointFive;
-
+            serial.DataReceived+=new SerialDataReceivedEventHandler(serial_DataReceived);
             serial.ReadTimeout = 100;
             serial.WriteTimeout = 100;
             modbus = new Modbus(serial);
         }
 
+        private void serial_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+ 
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             byte[] chromaValue = new byte[2];
